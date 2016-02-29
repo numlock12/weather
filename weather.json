@@ -1,0 +1,43 @@
+{
+    "message": "accurate",
+    "cod": "200",
+    "count": 1,
+    "list": [
+        {
+            "id": 616052,
+            "name": "Yerevan",
+            "coord": {
+                "lon": 44.513611,
+                "lat": 40.18111
+            },
+            "main": {
+                "temp": 273.844,
+                "temp_min": 273.844,
+                "temp_max": 273.844,
+                "pressure": 889.89,
+                "sea_level": 1045.12,
+                "grnd_level": 889.89,
+                "humidity": 84
+            },
+            "dt": 1456778127,
+            "wind": {
+                "speed": 2.11,
+                "deg": 49.0021
+            },
+            "sys": {
+                "country": ""
+            },
+            "clouds": {
+                "all": 0
+            },
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "Sky is Clear",
+                    "icon": "01n"
+                }
+            ]
+        }
+    ]
+}

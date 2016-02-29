@@ -1,0 +1,19 @@
+.main {
+    padding: 20px;
+}
+
+.country {
+    font-weight: bold;
+}
+
+.error, .success {
+    padding: 20px 0;
+}
+
+.error {
+    color: crimson;
+}
+
+.success {
+    color: green;
+}

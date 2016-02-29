@@ -1,0 +1,19 @@
+{
+  "name": "weather",
+  "version": "1.0.1",
+  "description": "Simple weather app",
+  "main": "index.html",
+  "scripts": {
+    "prestart": "npm install",
+    "postinstall": "bower install",
+    "start": "http-server -a localhost -p 8000 -c-1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "grunt": "^0.4.5",
+    "http-server": "^0.8.5",
+    "grunt-http-server": "^1.10.1"
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="app/src/main.css">
+</head>
+<body ng-app="myApp">
+
+<div class="main" ng-controller="MainController">
+    <div ng-show="weatherLoaded">
+        <span class="country" ng-bind="country"></span>
+        <br>
+        <span ng-bind="'Clouds ' + clouds + '%'"></span>
+        <br>
+        <span ng-bind="'Temperature ' + temp + '\u00B0' + 'C'"></span>
+        <br>
+        <img ng-src="{{imgUrl}}">
+    </div>
+
+    <div ng-show="error" ng-bind="error" class="error"></div>
+    <div ng-show="success" ng-bind="success" class="success"></div>
+
+    <div ng-show="showInput">
+        <input type="text" ng-model="country"/>
+        <input type="button" value="Load" ng-click="getWithCountry()"/>
+    </div>
+</div>
+
+<script src="bower/angular/angular.js"></script>
+<script src="bower/angular-resource/angular-resource.js"></script>
+<script src="bower/es6-shim/es6-sham.min.js"></script>
+<script src="app/src/app.js"></script>
+
+</body>
+</html>
